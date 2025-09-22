@@ -1,7 +1,4 @@
-hello
-hai
-hello
-good morning
-all of u
-welcome
-to our class
+id,Name,age,country
+101,Akash,21,india
+102,Anil,24,india
+103,Akhil,26,india
