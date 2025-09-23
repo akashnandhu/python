@@ -34,7 +34,7 @@ def hello():
     text1=Text(root,width=20,height=2,fg="red",font=("Arial",20))
     text1.pack()
     btn2=Button(root,text="submit",fg="red",width=10,height=1,font=("Arial",10))
-    btn2.pack(padx=15,pady=15)
+    btn2.pack(padx=15,pady=15)                                                                                                                              
     root.geometry("600x600")
     root.mainloop()
 btn1=Button(main,text="submit",fg="black",width=10,height=1,font=("Arial",10),command=hello)

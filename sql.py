@@ -5,9 +5,9 @@ cursor = connection.cursor()
 
 cursor.execute("""
     CREATE TABLE IF NOT EXISTS student (
-        id INTEGER PRIMARY KEY AUTOINCREMENT,
+        id INTEGER PRIMARY KEY AUTO_INCREMENT,
         name VARCHAR(20) NOT NULL,
-        age INTEGER,
+        age INT,
         gender VARCHAR(20),
         email VARCHAR(30) UNIQUE,
         phone VARCHAR(30)
@@ -34,10 +34,12 @@ except sqlite3.IntegrityError as e:
     print("Update failed due to constraint:", e)
 
 
-cursor.execute("""
-DELETE FROM student WHERE name="nandhu" 
-""")
+# cursor.execute("""
+# DELETE FROM student WHERE name="nandhu" 
+# """)
 
 
 connection.commit()
 connection.close()
+
+

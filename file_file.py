@@ -20,7 +20,7 @@ with open("akhil.txt","w+") as file:
     writer.writeheader()
     writer.writerow({"id":101,"Name":"Akash","age":21,"country":"india"})
     writer.writerow({"id":102,"Name":"Anil","age":24,"country":"india"})
-    writer.writerow({"id":103,"Name":"Akhil","age":26,"country":"india"})  
+    writer.writerow({"id":103,"Name":"Akhil","age":26,"country":"india"}) 
 
 from datetime import *
 print("current date and time is :",datetime.now())
