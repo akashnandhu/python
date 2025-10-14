@@ -7,6 +7,6 @@ if fnumber.isalpha() or lnumber.isalpha():
 else :
     fnumber=int(fnumber)
     lnumber=int(lnumber)
-    print("The result is: " + str(fnumber + lnumber))
+    print("The result is: ",fnumber + lnumber)
     print("-" * 50)
 

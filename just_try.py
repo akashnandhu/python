@@ -5,8 +5,11 @@
 
 
 # pal=input("Enter a string : ")
-# pal == pal[ : : -1]
-# print("This is palindrome....!")
+
+# if pal == pal[ : : -1]:
+#     print("This is palindrome....!")
+# else:
+#     print("this is not a palindrome")
 
 # class demo:
 #     def hello(self,*args):
@@ -17,13 +20,13 @@
 # x=demo()
 # print(x.hello(4,3,43,5,2,13,98,98))
 
-# from random import *
-# from os import*
-# number=randint(1,10)
-# guess=int(input("Enter a number between 1 and 10 : "))
-# if number == guess:
-#     print("you won the game...!")
-# else:
-#     print("ooh..sorry better luck next time...!")
+from random import *
+from os import*
+number=randint(1,10)
+guess=int(input("Enter a number between 1 and 10 : "))
+if number == guess:
+    print("you won the game...!")
+else:
+    print("nee umbii...!")
 
 
