@@ -27,6 +27,6 @@ guess=int(input("Enter a number between 1 and 10 : "))
 if number == guess:
     print("you won the game...!")
 else:
-    print("nee umbii...!")
+    print("Better luck next time...!")
 
 
